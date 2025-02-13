@@ -32,7 +32,6 @@ nav {
 #nav-links li a {
     color: white;
     text-decoration: none;
-    line-break: anywhere;
 }
 
 /* Responsive Menu */
@@ -60,9 +59,10 @@ section {
 
 /* Skills */
 #skills ul {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    columns: 1fr;    
     gap: 1rem;
+    
 }
 
 /* Contact Form */
