@@ -32,6 +32,7 @@ nav {
 #nav-links li a {
     color: white;
     text-decoration: none;
+    line-break: anywhere;
 }
 
 /* Responsive Menu */
