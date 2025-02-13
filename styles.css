@@ -59,11 +59,14 @@ section {
 
 /* Skills */
 #skills ul {
-    display: grid;
-    columns: 1fr;    
-    gap: 1rem;
-    
+    display: block;
 }
+
+#skills ul li {
+    display: block; /* Ensures each item is on a new line */
+    margin-bottom: 0.5rem; /* Adds spacing between items */
+}
+
 
 /* Contact Form */
 #contact-form {
